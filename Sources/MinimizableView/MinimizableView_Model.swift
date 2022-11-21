@@ -137,6 +137,10 @@ public class MinimizableViewHandler: ObservableObject {
             }
         }
     }
+
+    public func updateDraggedOffsetY(_ newValue: CGFloat) {
+        self.draggedOffsetY = newValue
+    }
 }
 
 /**
